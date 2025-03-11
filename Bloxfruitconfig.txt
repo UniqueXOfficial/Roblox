@@ -1,0 +1,114 @@
+_G.Config = {
+    
+    ["Main"] = {
+        -- ฟาร์มเลเวลและย้ายโลก
+        ["Auto Farm Level"] = false,
+        ["Auto Second Sea"] = false,
+        ["Auto Third Sea"] = false,
+
+        -- ฟาร์มบอส & ไอเท็ม
+        ["Auto Farm Boss"] = false,
+        ["Select Boss"] = "", 
+        ["Auto Farm Chest"] = false,
+        ["Auto Farm Material"] = false,
+        ["Select Material"] = "", 
+
+        -- Observation
+        ["Auto Farm Observation"] = false,
+        ["Auto Observation V2"] = false,
+
+        -- ทำดาบ (First Sea)
+        ["Auto Saber"] = false,
+        ["Auto Trident"] = false,
+        ["Auto Greybeard"] = false,
+        ["Auto Pole"] = false,
+
+        -- เควส (Second Sea)
+        ["Auto Bartilo Quest"] = false,
+        ["Auto Evo Race V2"] = false,
+        ["Auto Factory"] = false,
+        ["Auto Pole V2"] = false,
+        ["Auto Rengoku"] = false,
+        ["Auto Swan Glasses"] = false,
+        ["Auto Dark Coat"] = false,
+        ["Auto Dark Fragments"] = false,
+        ["Auto Midnight Blade"] = false,
+        ["Auto Dragon Trident"] = false,
+        ["Auto True Triple Katana"] = false,
+        ["Auto Evo Race V3"] = false,
+        ["Auto Legendary Sword"] = false,
+
+        -- Sea Event (Third Sea)
+        ["Select Sea"] = 1,
+        ["Auto Sea Event"] = false,
+
+        -- เควสพิเศษ (Third Sea)
+        ["Auto Cake Prince"] = false,
+        ["Auto Elite Hunter"] = false,
+        ["Stop When God's Chalice"] = false,
+        ["Auto Pirate Raid"] = false,
+        ["Auto Mirror Fractal"] = false,
+
+        -- ดาบและอาวุธพิเศษ (Third Sea)
+        ["Auto Yama"] = false,
+        ["Auto Tushita"] = false,
+        ["Auto Hallow Scythe"] = false,
+        ["Auto Canvander"] = false,
+        ["Auto Twin Hook"] = false,
+        ["Auto Dark Dagger"] = false,
+        ["Auto Serpent Bow"] = false,
+        ["Auto Cursed Dual Katana"] = false,
+        ["Auto Soul Guitar"] = false
+    },
+
+    ["Fighting Style"] = {
+        ["Auto Superhuman"] = false,
+        ["Auto Death Step"] = false,
+        ["Auto Sharkman Karate"] = false,
+        ["Auto Electric Claw"] = false,
+        ["Auto Dragon Talon"] = false,
+        ["Auto God Human"] = false
+    },
+    
+    ["Stats"] = {
+        ["Auto Stats"] = false,
+        ["Select Stats"] = {}, -- Table ที่เก็บค่าพวก "Kaitun [Devil Fruit]"
+        ["Point"] = 1 
+    },
+    
+    ["Settings"] = {
+        -- ตั้งค่า Farm
+        ["Weapon Type"] = "Melee", -- เลือกอาวุธที่ใช้ฟาร์ม (Melee, Sword, Devil Fruit)
+        ["Farm Mode"] = "Above", -- เลือกโหมดฟาร์ม (Above, Behind, Random)
+        ["Distance Farm"] = 40, -- ระยะการฟาร์ม
+        ["Double Quest"] = false, -- รับเควส 2 เท่าหรือไม่
+        ["Bypass TP"] = false, -- เปิด/ปิด Bypass TP
+        ["Teleport Island"] = false, -- เปิด/ปิดวาร์ปเกาะ
+        ["Select Effect"] = {}, -- เลือกเอฟเฟกต์ที่ต้องการปิด
+        ["Remove Effect"] = false, -- เปิด/ปิดการลบเอฟเฟกต์
+        ["White Screen Option"] = "Window Focus", -- โหมด White Screen (Window Focus, Always)
+        ["Turn On White Screen"] = false, -- เปิด/ปิด White Screen
+        ["Enable Buso"] = false, -- เปิด/ปิดการใช้ Buso Haki
+        ["Enable Hop Server"] = false, -- เปิด/ปิดการ Hop Server อัตโนมัติ
+        ["Auto Rejoin"] = false, -- เปิด/ปิดการ Rejoin Server อัตโนมัติ
+        ["Auto Redeem All Code"] = false -- เปิด/ปิดการรับรางวัลโค้ดทั้งหมด
+    },
+
+    ["Fps"] = {
+        -- ล็อค fps
+        ["Input Fps"] = 60, -- กำหนดค่า FPS Cap
+        ["Set Fps Cap"] = false -- เปิด/ปิดการตั้งค่า FPS Cap
+    },
+
+    ["Server Hop"] = {
+        ["Player Input"] = 5 -- จำนวนผู้เล่นที่ต้องการค้นหาในเซิร์ฟเวอร์ใหม่
+    },
+
+    ["Mastery Settings"] = {
+        ["Skill"] = {}, -- สกิลที่ใช้สำหรับฟาร์ม
+        ["Select Mastery Farm"] = "Fruit", -- ประเภทของ Mastery ที่ฟาร์ม (Fruit, Gun)
+        ["Hold Skill"] = 1, -- ระยะเวลาที่กดสกิล (แนะนำ 1-2 วิ)
+        ["Health %"] = 50, -- เปอร์เซ็นต์เลือดขั้นต่ำก่อนหยุดฟาร์ม
+        ["Mastery Farm"] = false -- เปิด/ปิดการฟาร์ม Mastery อัตโนมัติ
+    }
+}

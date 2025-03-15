@@ -1,0 +1,160 @@
+_G.Config = {
+    
+    ["Main"] = {
+        -- ฟาร์มเลเวลและย้ายโลก
+        ["Auto Farm Level"] = true,
+        ["Auto Second Sea"] = true,
+        ["Auto Third Sea"] = true,
+
+        -- ฟาร์มบอส & ไอเท็ม
+        ["Auto Farm Boss"] = false,
+        ["Select Boss"] = "", 
+        ["Auto Farm Chest"] = false,
+        ["Auto Farm Material"] = false,
+        ["Select Material"] = "", 
+
+        -- Observation
+        ["Auto Farm Observation"] = false,
+        ["Auto Observation V2"] = false,
+
+        -- ทำดาบ (First Sea)
+        ["Auto Saber"] = true,
+        ["Auto Trident"] = true,
+        ["Auto Greybeard"] = true,
+        ["Auto Pole"] = true,
+
+        -- เควส (Second Sea)
+        ["Auto Bartilo Quest"] = true,
+        ["Auto Evo Race V2"] = true,
+        ["Auto Factory"] = true,
+        ["Auto Pole V2"] = false,
+        ["Auto Rengoku"] = true,
+        ["Auto Swan Glasses"] = true,
+        ["Auto Dark Coat"] = true,
+        ["Auto Dark Fragments"] = true,
+        ["Auto Midnight Blade"] = true,
+        ["Auto Dragon Trident"] = true,
+        ["Auto True Triple Katana"] = true,
+        ["Auto Evo Race V3"] = false,
+        ["Auto Legendary Sword"] = true,
+
+        -- Sea Event (Third Sea)
+        ["Select Sea"] = 1,
+        ["Auto Sea Event"] = false,
+
+        -- เควสพิเศษ (Third Sea)
+        ["Auto Cake Prince"] = false,
+        ["Auto Elite Hunter"] = true,
+        ["Stop When God's Chalice"] = false,
+        ["Auto Pirate Raid"] = true,
+        ["Auto Mirror Fractal"] = true,
+
+        -- ดาบและอาวุธพิเศษ (Third Sea)
+        ["Auto Yama"] = true,
+        ["Auto Tushita"] = true,
+        ["Auto Hallow Scythe"] = true,
+        ["Auto Canvander"] = true,
+        ["Auto Twin Hook"] = false,
+        ["Auto Dark Dagger"] = true,
+        ["Auto Serpent Bow"] = false,
+        ["Auto Cursed Dual Katana"] = true,
+        ["Auto Soul Guitar"] = true
+    },
+
+    ["Fighting Style"] = {
+        ["Auto Superhuman"] = true,
+        ["Auto Death Step"] = true,
+        ["Auto Sharkman Karate"] = true,
+        ["Auto Electric Claw"] = true,
+        ["Auto Dragon Talon"] = true,
+        ["Auto God Human"] = true
+    },
+    
+    ["Stats"] = {
+        ["Auto Stats"] = true,
+        ["Select Stats"] = {"Kaitun [Devil Fruit]"}, -- Table ที่เก็บค่าพวก "Kaitun [Devil Fruit]"
+        ["Point"] = 1 
+    },
+
+    ["PVP"] = {
+        ["Aimbot Skill"] = false,
+        ["Damage Aura"] = false,
+        ["Aimbot Mode"] = "",
+        ["Max Distance"] = 10000,
+        ["Select Player"] = "",
+        ["Teleport To Player"] = false,
+        ["Spectate Player"] = false,
+        ["Dash Length"] = 1,
+        ["Change Dash Length"] = false,
+        ["State Player"] = {},
+        ["Auto Change State Player"] = false,
+        ["Auto Awaken V4"] = false,
+        ["Auto Active Race V3"] = false,
+        ["Gun No Cooldown"] = false,
+    },
+
+    ["Teleport"] = {
+        ["Select Island"] = "",
+        ["Teleport To Island"] = false,
+    },
+
+    ["Raid"] = {
+        ["Microchip"] = "",
+        ["Auto Dungeon"] = false,
+        ["Auto Awake"] = false,
+        ["Auto Summon Law"] = false,
+        ["Auto Farm Law"] = false,
+    },
+
+    ["Fruit"] = {
+        ["Select Fruit Sniper"] = {
+            "Kitsune-Kitsune",
+            "Dragon-Dragon"
+        }, 
+        ["Auto Buy Devil Fruit Sniper"] = true,
+        ["Auto Random Fruit"] = true,
+        ["Auto Eat Fruit"] = true,
+        ["Auto Bring Fruit"] = false,
+        ["Auto Store Fruit"] = true,
+    },
+
+    ["Bone"] = {
+        ["Auto Random Bone"] = true,
+    },
+    
+    ["Settings"] = {
+        -- ตั้งค่า Farm
+        ["Weapon Type"] = "Melee", -- เลือกอาวุธที่ใช้ฟาร์ม (Melee, Sword, Devil Fruit)
+        ["Farm Mode"] = "Above", -- เลือกโหมดฟาร์ม (Above, Behind, Random)
+        ["Distance Farm"] = 40, -- ระยะการฟาร์ม
+        ["Double Quest"] = true, -- รับเควส 2 เท่าหรือไม่
+        ["Bypass TP"] = true, -- เปิด/ปิด Bypass TP
+        ["Teleport Island"] = true, -- เปิด/ปิดวาร์ปเกาะ
+        ["Select Effect"] = {"Remove Damage" , "Effect Romove"}, -- เลือกเอฟเฟกต์ที่ต้องการปิด
+        ["Remove Effect"] = true, -- เปิด/ปิดการลบเอฟเฟกต์
+        ["White Screen Option"] = "Always", -- โหมด White Screen (Window Focus, Always)
+        ["Turn On White Screen"] = false, -- เปิด/ปิด White Screen
+        ["Enable Buso"] = true, -- เปิด/ปิดการใช้ Buso Haki
+        ["Enable Hop Server"] = false, -- เปิด/ปิดการ Hop Server อัตโนมัติ
+        ["Auto Rejoin"] = true, -- เปิด/ปิดการ Rejoin Server อัตโนมัติ
+        ["Auto Redeem All Code"] = true -- เปิด/ปิดการรับรางวัลโค้ดทั้งหมด
+    },
+
+    ["Fps"] = {
+        -- ล็อค fps
+        ["Input Fps"] = 60, -- กำหนดค่า FPS Cap
+        ["Set Fps Cap"] = false -- เปิด/ปิดการตั้งค่า FPS Cap
+    },
+
+    ["Server Hop"] = {
+        ["Player Input"] = 5 -- จำนวนผู้เล่นที่ต้องการค้นหาในเซิร์ฟเวอร์ใหม่
+    },
+
+    ["Mastery Settings"] = {
+        ["Skill"] = {}, -- สกิลที่ใช้สำหรับฟาร์ม
+        ["Select Mastery Farm"] = "Fruit", -- ประเภทของ Mastery ที่ฟาร์ม (Fruit, Gun)
+        ["Hold Skill"] = 1, -- ระยะเวลาที่กดสกิล (แนะนำ 1-2 วิ)
+        ["Health %"] = 50, -- เปอร์เซ็นต์เลือดขั้นต่ำก่อนหยุดฟาร์ม
+        ["Mastery Farm"] = false -- เปิด/ปิดการฟาร์ม Mastery อัตโนมัติ
+    }
+}

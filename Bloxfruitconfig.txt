@@ -108,7 +108,7 @@ _G.Config = {
 
     ["Fruit"] = {
         ["Devil Fruit Sniper"] = {},
-        ["Auto Devil Fruit Sniper"] = false,
+        ["Auto Buy Devil Fruit Sniper"] = false,
         ["Auto Random Fruit"] = false,
         ["Auto Eat Fruit"] = false,
         ["Auto Bring Fruit"] = false,

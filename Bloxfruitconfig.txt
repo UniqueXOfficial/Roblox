@@ -75,6 +75,49 @@ _G.Config = {
         ["Select Stats"] = {}, -- Table ที่เก็บค่าพวก "Kaitun [Devil Fruit]"
         ["Point"] = 1 
     },
+
+    ["PVP"] = {
+        ["Aimbot Skill"] = false,
+        ["Damage Aura"] = false,
+        ["Aimbot Mode"] = {},
+        ["Max Distance"] = 10000,
+        ["Select Player"] = "",
+        ["Teleport To Player"] = false,
+        ["Spectate Player"] = false,
+        ["Dash Length"] = 1,
+        ["Change Dash Length"] = false,
+        ["State"] = {},
+        ["Auto Change State Player"] = false,
+        ["Auto Awaken V4"] = false,
+        ["Auto Active Race V3"] = false,
+        ["Gun No Cooldown"] = false,
+    },
+
+    ["Teleport"] = {
+        ["Select Island"] = "",
+        ["Teleport To Island"] = false,
+    },
+
+    ["Raid"] = {
+        ["Microchip"] = "",
+        ["Auto Dungeon"] = false,
+        ["Auto Awake"] = false,
+        ["Auto Summon Law"] = false,
+        ["Auto Farm Law"] = false,
+    },
+
+    ["Fruit"] = {
+        ["Devil Fruit Sniper"] = {},
+        ["Auto Devil Fruit Sniper"] = false,
+        ["Auto Random Fruit"] = false,
+        ["Auto Eat Fruit"] = false,
+        ["Auto Bring Fruit"] = false,
+        ["Auto Store Fruit"] = false,
+    },
+
+    ["Bone"] = {
+        ["Auto Random Bone"] = false,
+    },
     
     ["Settings"] = {
         -- ตั้งค่า Farm
